@@ -1,0 +1,42 @@
+@media only screen and (min-width: 768px) {
+/*here happens something when the screen size is >= 768px */
+ body {
+background-image: url(images/pozadina-muzika-leva.jpg), url(images/pozadina-muzika-desna.jpg);
+background-repeat: no-repeat;
+background-position: left top, right top;
+ }
+}
+
+@media only screen and (max-width: 481px) {
+/*here happens something when the screen size is <= 768px*/
+ body  {
+   background-image: none;
+ }
+}
+
+/*PLAYER*/
+#player
+{
+background-color:#0389e0;
+background-image:-webkit-gradient(linear,left bottom,left top,color-stop(0.32,#0389e0),color-stop(0.22,#2f2f2f));
+background-image:-webkit-linear-gradient(#0389e0,#082e9a);
+background-image:-moz-linear-gradient(top,#0389e0,#082e9a);
+	max-width:80%;
+	margin-left:0px;
+	padding:5px;
+	box-sizing:border-box;
+}
+input[type="image"]
+{
+	float:left;
+	height:20px;
+	margin-left:2px;
+	margin-right:5px;
+	margin-top:2px;
+	
+}
+#vol_img
+{
+	margin-left:40px;
+	width:20px;
+}

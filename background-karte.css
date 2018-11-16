@@ -1,0 +1,15 @@
+@media only screen and (min-width: 768px) {
+/*here happens something when the screen size is >= 768px */
+ body {
+background-image: url(images/pozadina-karte_leva.jpg), url(images/pozadina-karte_desna.jpg);
+background-repeat: no-repeat;
+background-position: left top, right top;
+ }
+}
+
+@media only screen and (max-width: 481px) {
+/*here happens something when the screen size is <= 768px*/
+ body {
+   background-image: none;
+ }
+}
